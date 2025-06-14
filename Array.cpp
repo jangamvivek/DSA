@@ -109,28 +109,52 @@ using namespace std;
 // }
 
 // Removes duplicates from sorted array and prints only unique elements
-void removeDuplicates(int arr[], int n) {
-    if (n == 0) return;
+// void removeDuplicates(int arr[], int n) {
+//     if (n == 0) return;
 
-    int i = 0;
-    for (int j = 1; j < n; j++) {
-        if (arr[j] != arr[i]) {
-            i++;
-            arr[i] = arr[j];
-        }
-    }
+//     int i = 0;
+//     for (int j = 1; j < n; j++) {
+//         if (arr[j] != arr[i]) {
+//             i++;
+//             arr[i] = arr[j];
+//         }
+//     }
 
-    // Print only the unique part of the array
-    cout << "Array after removing duplicates: ";
-    for (int k = 0; k <= i; k++) {
-        cout << arr[k] << " ";
+//     // Print only the unique part of the array
+//     cout << "Array after removing duplicates: ";
+//     for (int k = 0; k <= i; k++) {
+//         cout << arr[k] << " ";
+//     }
+//     cout << endl;
+// }
+
+// int main() {
+//     int arr[] = {1,1,2,2,2,3,3};
+//     int n = 7;
+//     removeDuplicates(arr, n);
+//     return 0;
+// }
+
+//Left rotate the array by one place
+void leftRotate(int arr[], int n){
+    int temp = arr[0];
+    for (int i = 1; i < n; i++)
+    {
+        arr[i-1] = arr[i];
     }
-    cout << endl;
+    arr[n-1]=temp;
+    // return arr;
 }
 
-int main() {
-    int arr[] = {1,1,2,2,2,3,3};
-    int n = 7;
-    removeDuplicates(arr, n);
+int main(){
+    int arr[] = {1,2,3,4,5};
+    int n = 5;
+    leftRotate(arr, n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << endl;
+    }
+    
     return 0;
 }
