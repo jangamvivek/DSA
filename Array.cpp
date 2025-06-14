@@ -55,25 +55,82 @@ using namespace std;
   
 // }
 
-int linearSearch(int arr[], int sz, int target){
+// int linearSearch(int arr[], int sz, int target){
 
-  for (int i = 0; i < sz; i++)
-  {
-    if (arr[i] == target)
-    {
-      return i;
-    }
+//   for (int i = 0; i < sz; i++)
+//   {
+//     if (arr[i] == target)
+//     {
+//       return i;
+//     }
     
-  }
-  return -1;
+//   }
+//   return -1;
+// }
+
+// int main(){
+//   int arr[] = {12,47,54,77,80,46,26,99};
+//   int sz = 8;
+//   int target = 99;
+
+//   cout << linearSearch(arr, sz, target) << endl;
+
+//   return 0;
+// }
+
+
+// bool isSorted(int arr[], int n) {
+//     for (int i = 1; i < n; i++) {
+//         if (arr[i] < arr[i - 1]) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// int main() {
+//     int arr[] = {12, 47, 54, 77, 80};
+//     int n;
+//     cout << "Enter number of elements to check: ";
+//     cin >> n;
+
+//     if (n > sizeof(arr)/sizeof(arr[0])) {
+//         cout << "Invalid input: n exceeds array size." << endl;
+//         return 1;
+//     }
+
+//     if (isSorted(arr, n)) {
+//         cout << "Array is sorted" << endl;
+//     } else {
+//         cout << "Array is NOT sorted." << endl;
+//     }
+
+//     return 0;
+// }
+
+// Removes duplicates from sorted array and prints only unique elements
+void removeDuplicates(int arr[], int n) {
+    if (n == 0) return;
+
+    int i = 0;
+    for (int j = 1; j < n; j++) {
+        if (arr[j] != arr[i]) {
+            i++;
+            arr[i] = arr[j];
+        }
+    }
+
+    // Print only the unique part of the array
+    cout << "Array after removing duplicates: ";
+    for (int k = 0; k <= i; k++) {
+        cout << arr[k] << " ";
+    }
+    cout << endl;
 }
 
-int main(){
-  int arr[] = {12,47,54,77,80,46,26,99};
-  int sz = 8;
-  int target = 99;
-
-  cout << linearSearch(arr, sz, target) << endl;
-
-  return 0;
+int main() {
+    int arr[] = {1,1,2,2,2,3,3};
+    int n = 7;
+    removeDuplicates(arr, n);
+    return 0;
 }
