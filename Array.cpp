@@ -136,25 +136,71 @@ using namespace std;
 // }
 
 //Left rotate the array by one place
-void leftRotate(int arr[], int n){
-    int temp = arr[0];
-    for (int i = 1; i < n; i++)
-    {
-        arr[i-1] = arr[i];
-    }
-    arr[n-1]=temp;
-    // return arr;
+// void leftRotate(int arr[], int n){
+//     int temp = arr[0];
+//     for (int i = 1; i < n; i++)
+//     {
+//         arr[i-1] = arr[i];
+//     }
+//     arr[n-1]=temp;
+//     // return arr;
+// }
+
+// int main(){
+//     int arr[] = {1,2,3,4,5};
+//     int n = 5;
+//     leftRotate(arr, n);
+
+//     for (int i = 0; i < n; i++)
+//     {
+//         cout << arr[i] << endl;
+//     }
+    
+//     return 0;
+// }
+
+//Left rotate the array by D place
+
+// void leftRotate(int arr[], int n, int d){
+//     d = d % n;
+//     int temp[d];
+
+//     for (int i = 0; i < d; i++) {
+//         temp[i] = arr[i]; 
+//     }
+
+//     for (int i = d; i < n; i++) {
+//         arr[i - d] = arr[i]; 
+//     }
+
+//     for (int i = 0; i < d; i++) {
+//         arr[n - d + i] = temp[i]; 
+//     }
+// }
+
+// another method
+void leftRotate(int arr[], int n, int d){
+    reverse(arr, arr+d);
+    reverse(arr+d, arr+n);
+    reverse(arr, arr + n);
 }
 
-int main(){
-    int arr[] = {1,2,3,4,5};
-    int n = 5;
-    leftRotate(arr, n);
+int main() {
+    int n;
+    cin >> n;
+    int arr[n];
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i]; 
     }
-    
+
+    int d;
+    cin >> d;
+    leftRotate(arr, n, d);
+
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+
     return 0;
 }
