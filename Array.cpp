@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <set>
 using namespace std;
 
 // largest element array 
@@ -179,28 +180,139 @@ using namespace std;
 // }
 
 // another method
-void leftRotate(int arr[], int n, int d){
-    reverse(arr, arr+d);
-    reverse(arr+d, arr+n);
-    reverse(arr, arr + n);
+// void leftRotate(int arr[], int n, int d){
+//     reverse(arr, arr+d);
+//     reverse(arr+d, arr+n);
+//     reverse(arr, arr + n);
+// }
+
+// int main() {
+//     int n;
+//     cin >> n;
+//     int arr[n];
+
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i]; 
+//     }
+
+//     int d;
+//     cin >> d;
+//     leftRotate(arr, n, d);
+
+//     for (int i = 0; i < n; i++) {
+//         cout << arr[i] << " ";
+//     }
+
+//     return 0;
+// }
+
+
+// move all zeroes at the end of the array 
+
+// void moveZeros(int arr[], int n){
+//     int j = -1;
+//     for (int i = 0; i < count; i++)
+//     {
+//         if (i = 0)
+//         {
+//             j = i;
+//             break;
+//         }
+//     }
+
+//     // no non zero nos 
+//     if ( j == 1) return arr;
+
+//     for (int i = j + 1; i < n; i++)
+//     {
+//         if (a[i] != 0)
+//         {
+//             swap(arr[i], arr[j]);
+//             j++;
+//         }
+//     }
+// }
+
+// int main() {
+//     int n;
+//     cin >> n;
+//     int arr[n];
+
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i]; 
+//     }
+
+    
+//     leftRotate(arr, n, j);
+
+//     for (int i = 0; i < n; i++) {
+//         cout << arr[i] << " ";
+//     }
+
+//     return 0;
+// }
+
+// linear search 
+// int linearSearch(int arr[], int n, int num) {
+//     for (int i = 0; i < n; i++) {
+//         if (arr[i] == num) {
+//             cout << "Element is found at position: " << i << endl;
+//             return i; // return index if found
+//         }
+//     }
+//     cout << "Element not found." << endl;
+//     return -1; 
+// }
+
+// int main() {
+//     int n, num;
+
+//     cout << "Enter the number of elements: ";
+//     cin >> n;
+
+//     int arr[n];
+//     cout << "Enter the elements: ";
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//     }
+
+//     cout << "Enter the number to search: ";
+//     cin >> num;
+
+//     linearSearch(arr, n, num);
+//     return 0;
+// }
+
+// UNION OF TWO SORTED ARRAYS 
+void printUnion(int arr1[], int n1, int arr2[], int n2) {
+    set<int> unionSet;
+
+    // Insert elements of first array
+    for (int i = 0; i < n1; i++) {
+        unionSet.insert(arr1[i]);
+    }
+
+    // Insert elements of second array
+    for (int i = 0; i < n2; i++) {
+        unionSet.insert(arr2[i]);
+    }
+
+    // Print union
+    cout << "Union of the two arrays: ";
+    for (int val : unionSet) {
+        cout << val << " ";
+    }
+    cout << endl;
 }
 
 int main() {
-    int n;
-    cin >> n;
-    int arr[n];
+    int arr1[] = {1, 2, 4, 5};
+    int arr2[] = {2, 3, 5, 6};
 
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i]; 
-    }
+    int n1 = sizeof(arr1) / sizeof(arr1[0]);
+    int n2 = sizeof(arr2) / sizeof(arr2[0]);
 
-    int d;
-    cin >> d;
-    leftRotate(arr, n, d);
-
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
+    printUnion(arr1, n1, arr2, n2);
 
     return 0;
 }
