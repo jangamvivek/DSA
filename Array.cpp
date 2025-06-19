@@ -284,35 +284,66 @@ using namespace std;
 // }
 
 // UNION OF TWO SORTED ARRAYS 
-void printUnion(int arr1[], int n1, int arr2[], int n2) {
-    set<int> unionSet;
+// void printUnion(int arr1[], int n1, int arr2[], int n2) {
+//     set<int> unionSet;
 
-    // Insert elements of first array
-    for (int i = 0; i < n1; i++) {
-        unionSet.insert(arr1[i]);
-    }
+//     // Insert elements of first array
+//     for (int i = 0; i < n1; i++) {
+//         unionSet.insert(arr1[i]);
+//     }
 
-    // Insert elements of second array
-    for (int i = 0; i < n2; i++) {
-        unionSet.insert(arr2[i]);
-    }
+//     // Insert elements of second array
+//     for (int i = 0; i < n2; i++) {
+//         unionSet.insert(arr2[i]);
+//     }
 
-    // Print union
-    cout << "Union of the two arrays: ";
-    for (int val : unionSet) {
-        cout << val << " ";
+//     // Print union
+//     cout << "Union of the two arrays: ";
+//     for (int val : unionSet) {
+//         cout << val << " ";
+//     }
+//     cout << endl;
+// }
+
+// int main() {
+//     int arr1[] = {1, 2, 4, 5};
+//     int arr2[] = {2, 3, 5, 6};
+
+//     int n1 = sizeof(arr1) / sizeof(arr1[0]);
+//     int n2 = sizeof(arr2) / sizeof(arr2[0]);
+
+//     printUnion(arr1, n1, arr2, n2);
+
+//     return 0;
+// }
+
+// INTERSECTION OF TWO SORTED ARRAYS 
+vector<int> findArrayIntersection(vector<int> &A, vector<int> &B) {
+    vector<int> ans;
+    int n = A.size(), m = B.size();
+    int i = 0, j = 0;
+
+    while (i < n && j < m) {
+        if (A[i] == B[j]) {
+            ans.push_back(A[i]);
+            i++;
+            j++;
+        } else if (A[i] < B[j]) {
+            i++;
+        } else {
+            j++;
+        }
     }
-    cout << endl;
+    return ans;
 }
 
 int main() {
-    int arr1[] = {1, 2, 4, 5};
-    int arr2[] = {2, 3, 5, 6};
+    vector<int> A = {1, 2, 4, 5, 6};
+    vector<int> B = {2, 4, 6, 8};
 
-    int n1 = sizeof(arr1) / sizeof(arr1[0]);
-    int n2 = sizeof(arr2) / sizeof(arr2[0]);
-
-    printUnion(arr1, n1, arr2, n2);
-
+    vector<int> result = findArrayIntersection(A, B);
+    for (int num : result) {
+        cout << num << " ";
+    }
     return 0;
 }
