@@ -318,32 +318,59 @@ using namespace std;
 // }
 
 // INTERSECTION OF TWO SORTED ARRAYS 
-vector<int> findArrayIntersection(vector<int> &A, vector<int> &B) {
-    vector<int> ans;
-    int n = A.size(), m = B.size();
-    int i = 0, j = 0;
+// vector<int> findArrayIntersection(vector<int> &A, vector<int> &B) {
+//     vector<int> ans;
+//     int n = A.size(), m = B.size();
+//     int i = 0, j = 0;
 
-    while (i < n && j < m) {
-        if (A[i] == B[j]) {
-            ans.push_back(A[i]);
-            i++;
-            j++;
-        } else if (A[i] < B[j]) {
-            i++;
-        } else {
-            j++;
+//     while (i < n && j < m) {
+//         if (A[i] == B[j]) {
+//             ans.push_back(A[i]);
+//             i++;
+//             j++;
+//         } else if (A[i] < B[j]) {
+//             i++;
+//         } else {
+//             j++;
+//         }
+//     }
+//     return ans;
+// }
+
+// int main() {
+//     vector<int> A = {1, 2, 4, 5, 6};
+//     vector<int> B = {2, 4, 6, 8};
+
+//     vector<int> result = findArrayIntersection(A, B);
+//     for (int num : result) {
+//         cout << num << " ";
+//     }
+//     return 0;
+// }
+
+
+// MISSING NUMBER IN AN ARRAY 
+int findMissingNumber(int arr[], int n) {
+    for (int i = 1; i <= n; i++) {
+        bool found = false;
+        for (int j = 0; j < n - 1; j++) {
+            if (arr[j] == i) {
+                found = true;
+                break;
+            }
         }
+        if (!found)
+            return i;
     }
-    return ans;
+    return -1; // If no number is missing
 }
 
 int main() {
-    vector<int> A = {1, 2, 4, 5, 6};
-    vector<int> B = {2, 4, 6, 8};
+    int arr[] = {1, 2, 4, 6, 3, 7, 8}; // Example array (missing 5)
+    int n = 8; // Numbers should be from 1 to 8
 
-    vector<int> result = findArrayIntersection(A, B);
-    for (int num : result) {
-        cout << num << " ";
-    }
+    int missing = findMissingNumber(arr, n);
+    cout << "Missing number is: " << missing << endl;
+
     return 0;
 }
