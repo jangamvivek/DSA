@@ -350,24 +350,63 @@ using namespace std;
 
 
 // MISSING NUMBER IN AN ARRAY 
+
+// BRUTE FORCE 
+// int findMissingNumber(int arr[], int n) {
+//     for (int i = 1; i <= n; i++) {
+//         bool found = false;
+//         for (int j = 0; j < n - 1; j++) {
+//             if (arr[j] == i) {
+//                 found = true;
+//                 break;
+//             }
+//         }
+//         if (!found)
+//             return i;
+//     }
+//     return -1; // If no number is missing
+// }
+
+// BETTER APPROACH 
+// int findMissingNumber(int arr[], int n) {
+//     int total = n * (n + 1) / 2;
+
+//     int sum = 0;
+//     for (int i = 0; i < n - 1; i++)
+//     {
+//         sum+=arr[i];
+//     }
+//     return total - sum;
+     
+// }
+
+
+// OPTIMAL APPROACH USING XOR 
 int findMissingNumber(int arr[], int n) {
-    for (int i = 1; i <= n; i++) {
-        bool found = false;
-        for (int j = 0; j < n - 1; j++) {
-            if (arr[j] == i) {
-                found = true;
-                break;
-            }
-        }
-        if (!found)
-            return i;
+    int xor1 = 0;
+    int xor2 = 0;
+
+    for (int i = 0; i < n; i++) {
+        xor1 ^= arr[i];  // XOR all elements in the array
+        xor2 ^= (i + 1); // XOR all numbers from 1 to n
     }
-    return -1; // If no number is missing
+
+    return xor1 ^ xor2;
 }
 
 int main() {
-    int arr[] = {1, 2, 4, 6, 3, 7, 8}; // Example array (missing 5)
-    int n = 8; // Numbers should be from 1 to 8
+    // int arr[];
+    int n; 
+    
+    cout << "Enter the value of n (range will be 1 to n): ";
+    cin >> n;
+
+    int arr[n - 1];  // Array size is n-1
+
+    cout << "Enter " << n - 1 << " numbers (from 1 to " << n << ", with one missing):" << endl;
+    for (int i = 0; i < n - 1; i++) {
+        cin >> arr[i];
+    }
 
     int missing = findMissingNumber(arr, n);
     cout << "Missing number is: " << missing << endl;
