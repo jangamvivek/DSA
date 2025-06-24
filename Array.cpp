@@ -382,34 +382,70 @@ using namespace std;
 
 
 // OPTIMAL APPROACH USING XOR 
-int findMissingNumber(int arr[], int n) {
-    int xor1 = 0;
-    int xor2 = 0;
+// int findMissingNumber(int arr[], int n) {
+//     int xor1 = 0;
+//     int xor2 = 0;
 
-    for (int i = 0; i < n; i++) {
-        xor1 ^= arr[i];  // XOR all elements in the array
-        xor2 ^= (i + 1); // XOR all numbers from 1 to n
+//     for (int i = 0; i < n; i++) {
+//         xor1 ^= arr[i];  // XOR all elements in the array
+//         xor2 ^= (i + 1); // XOR all numbers from 1 to n
+//     }
+
+//     return xor1 ^ xor2;
+// }
+
+// int main() {
+//     // int arr[];
+//     int n; 
+    
+//     cout << "Enter the value of n (range will be 1 to n): ";
+//     cin >> n;
+
+//     int arr[n - 1];  // Array size is n-1
+
+//     cout << "Enter " << n - 1 << " numbers (from 1 to " << n << ", with one missing):" << endl;
+//     for (int i = 0; i < n - 1; i++) {
+//         cin >> arr[i];
+//     }
+
+//     int missing = findMissingNumber(arr, n);
+//     cout << "Missing number is: " << missing << endl;
+
+//     return 0;
+// }
+
+
+// MAXIMUM CONUCETIVE ONES WITH OPTIMAL SOLUTION
+int firstMaxConsecutiveOnes(int arr[], int n){
+    int max1 = 0;
+    int cnt = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        if(arr[i] == 1){
+            cnt++;
+            max1 = max(max1, cnt);
+        }else{
+            cnt = 0;
+        }
     }
-
-    return xor1 ^ xor2;
+    return max1;
+    
 }
 
 int main() {
-    // int arr[];
     int n; 
     
-    cout << "Enter the value of n (range will be 1 to n): ";
+    cout << "Enter no of elements: ";
     cin >> n;
 
-    int arr[n - 1];  // Array size is n-1
-
-    cout << "Enter " << n - 1 << " numbers (from 1 to " << n << ", with one missing):" << endl;
-    for (int i = 0; i < n - 1; i++) {
+    int arr[n];
+    cout << "Enter array elements: " << endl;
+    for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    int missing = findMissingNumber(arr, n);
-    cout << "Missing number is: " << missing << endl;
-
+    int firstMax = firstMaxConsecutiveOnes(arr, n);
+    cout << "the count of MaxConsecutiveOnes is: " << firstMax << endl;
     return 0;
 }
