@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <set>
+#include <unordered_map>
 using namespace std;
 
 // largest element array 
@@ -416,36 +417,103 @@ using namespace std;
 
 
 // MAXIMUM CONUCETIVE ONES WITH OPTIMAL SOLUTION
-int firstMaxConsecutiveOnes(int arr[], int n){
-    int max1 = 0;
-    int cnt = 0;
+// int firstMaxConsecutiveOnes(int arr[], int n){
+//     int max1 = 0;
+//     int cnt = 0;
 
-    for (int i = 0; i < n; i++)
-    {
-        if(arr[i] == 1){
-            cnt++;
-            max1 = max(max1, cnt);
-        }else{
-            cnt = 0;
-        }
-    }
-    return max1;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if(arr[i] == 1){
+//             cnt++;
+//             max1 = max(max1, cnt);
+//         }else{
+//             cnt = 0;
+//         }
+//     }
+//     return max1;
     
+// }
+
+// int main() {
+//     int n; 
+    
+//     cout << "Enter no of elements: ";
+//     cin >> n;
+
+//     int arr[n];
+//     cout << "Enter array elements: " << endl;
+//     for (int i = 0; i < n; i++) {
+//         cin >> arr[i];
+//     }
+
+//     int firstMax = firstMaxConsecutiveOnes(arr, n);
+//     cout << "the count of MaxConsecutiveOnes is: " << firstMax << endl;
+//     return 0;
+// }
+
+
+// FIND THE NUMBER THAT APPEARS ONCE AND OTHER NUMBERS TWICE
+// BRUTE FORCE TIME COMPLEXITY O(n^2) and SPCE COMPLEXITY = O(1)
+// int appearNumberOnce(int arr[], int size) {
+//     for (int i = 0; i < size; i++) {
+//         int count = 0;
+//         for (int j = 0; j < size; j++) {
+//             if (arr[i] == arr[j]) {
+//                 count++;
+//             }
+//         }
+//         if (count == 1) {
+//             return arr[i]; 
+//         }
+//     }
+//     return -1; 
+// }
+
+
+// BETTER SOLUTION TIME COMPLEXITY O(n) and SPCE COMPLEXITY = O(n)
+// int appearNumberOnce(int arr[], int size) {
+//     unordered_map<int, int> freq;
+
+//     for (int i = 0; i < size; i++) {
+//         freq[arr[i]]++;
+//     }
+
+//     for (int i = 0; i < size; i++) {
+//         if (freq[arr[i]] == 1) {
+//             return arr[i];
+//         }
+//     }
+
+//     return -1; 
+// }
+
+
+// OPTINAL SOLUTION XOR TIME COMPLEXITY O(n) and SPCE COMPLEXITY = O(n)
+int appearNumberOnce(int arr[], int size) {
+    int result = 0;
+    for (int i = 0; i < size; i++){
+        result ^= arr[i];
+    }
+    return result; 
 }
 
 int main() {
-    int n; 
+    int num; 
     
     cout << "Enter no of elements: ";
-    cin >> n;
+    cin >> num;
 
-    int arr[n];
+    int arr[num];
     cout << "Enter array elements: " << endl;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < num; i++) {
         cin >> arr[i];
     }
 
-    int firstMax = firstMaxConsecutiveOnes(arr, n);
-    cout << "the count of MaxConsecutiveOnes is: " << firstMax << endl;
+    int appearOnce = appearNumberOnce(arr, num);
+    if (appearOnce != -1)
+        cout << "The number that appears only once is: " << appearOnce << endl;
+    else
+        cout << "No unique number found." << endl;
+
     return 0;
 }
