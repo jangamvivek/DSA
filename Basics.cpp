@@ -114,26 +114,55 @@ using namespace std;
 
 
 // USING BINARY SEARCH 
+// int lowerBound(vector<int> &arr, int target){
+//     int lo = 0,   hi = arr.size() - 1;
+//     int res = arr.size();
+
+//     while (lo <= hi)
+//     {
+//       int mid = (lo + hi) / 2;
+//         if(arr[mid] >= target){
+//           res = mid;
+//           hi = mid - 1;
+//         }
+//         else{
+//           lo = mid + 1;
+//         }
+//     }
+//     return res;
+// }
+
+// int main() {
+//     vector<int> arr = {2, 3, 7, 10, 11, 11, 25};
+//     int target = 26;
+
+//     cout << lowerBound(arr, target);
+//     return 0;
+// }
+
+// FOR UPPER BOUND 
 int lowerBound(vector<int> &arr, int target){
-    int lo = 0,   hi = arr.size() - 1;
+    int low = 0,  high = arr.size() - 1;
     int res = arr.size();
 
-    while (lo <= hi)
+    while (low <= high)
     {
-      int mid = lo + (hi - lo) / 2;
-        if(arr[mid] >= target){
+      int mid = (low + high) / 2;
+        if(arr[mid] > target){
           res = mid;
-          hi = mid - 1;
+          high = mid - 1;
         }
         else{
-          lo = mid + 1;
+          low = mid + 1;
         }
     }
     return res;
 }
+
+
 int main() {
     vector<int> arr = {2, 3, 7, 10, 11, 11, 25};
-    int target = 26;
+    int target = 25;
 
     cout << lowerBound(arr, target);
     return 0;
