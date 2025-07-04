@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include <set>
+#include <vector>
 #include <unordered_map>
 using namespace std;
 
@@ -489,31 +490,103 @@ using namespace std;
 
 
 // OPTINAL SOLUTION XOR TIME COMPLEXITY O(n) and SPCE COMPLEXITY = O(n)
-int appearNumberOnce(int arr[], int size) {
-    int result = 0;
-    for (int i = 0; i < size; i++){
-        result ^= arr[i];
+// int appearNumberOnce(int arr[], int size) {
+//     int result = 0;
+//     for (int i = 0; i < size; i++){
+//         result ^= arr[i];
+//     }
+//     return result; 
+// }
+
+// int main() {
+//     int num; 
+    
+//     cout << "Enter no of elements: ";
+//     cin >> num;
+
+//     int arr[num];
+//     cout << "Enter array elements: " << endl;
+//     for (int i = 0; i < num; i++) {
+//         cin >> arr[i];
+//     }
+
+//     int appearOnce = appearNumberOnce(arr, num);
+//     if (appearOnce != -1)
+//         cout << "The number that appears only once is: " << appearOnce << endl;
+//     else
+//         cout << "No unique number found." << endl;
+
+//     return 0;
+// }
+
+
+
+// SORT AN ARRAY OF 0s 1s and 2s using better and optimal solution
+// BETTER SOLUTION Time complexity O(2n)
+// void sort012(vector<int> &arr) {
+//     int n = arr.size();
+//     int c0 = 0, c1 = 0, c2 = 0;
+
+//     // Count 0s, 1s and 2s
+//     for (int i = 0; i < n; i++) {
+//         if (arr[i] == 0)
+//             c0 += 1;
+//         else if (arr[i] == 1)
+//             c1 += 1;
+//         else
+//             c2 += 1;
+//     }
+
+//     int idx = 0;
+    
+//     // Place all the 0s
+//     for (int i = 0; i < c0; i++)
+//         arr[idx++] = 0;
+
+//     // Place all the 1s
+//     for (int i = 0; i < c1; i++)
+//         arr[idx++] = 1;
+
+//     // Place all the 2s
+//     for (int i = 0; i < c2; i++)
+//         arr[idx++] = 2;
+// }
+
+// int main() {
+//     vector<int> arr = { 0, 1, 2, 0, 1, 2 };
+//     sort012(arr);
+
+//     for (int i = 0; i < arr.size(); i++)
+//         cout << arr[i] << " ";
+//     cout << endl;
+//     return 0;
+// }
+
+// OPTIMAL SOLUTION  Time complexity O(n)
+void sort012(vector<int> &arr) {
+    int n = arr.size();
+    int lo = 0;
+    int hi = n - 1;
+    int mid = 0;
+
+    // Iterate till all the elements
+    // are sorted
+    while (mid <= hi) {
+        if (arr[mid] == 0)
+            swap(arr[lo++], arr[mid++]);
+        else if (arr[mid] == 1)
+            mid++;
+        else
+            swap(arr[mid], arr[hi--]);
     }
-    return result; 
 }
 
 int main() {
-    int num; 
-    
-    cout << "Enter no of elements: ";
-    cin >> num;
+    vector<int> arr = { 0, 1, 2, 0, 1, 2 };
+    sort012(arr);
 
-    int arr[num];
-    cout << "Enter array elements: " << endl;
-    for (int i = 0; i < num; i++) {
-        cin >> arr[i];
-    }
-
-    int appearOnce = appearNumberOnce(arr, num);
-    if (appearOnce != -1)
-        cout << "The number that appears only once is: " << appearOnce << endl;
-    else
-        cout << "No unique number found." << endl;
-
+    for (int i = 0; i < arr.size(); i++)
+        cout << arr[i] << " ";
+    cout << endl;
     return 0;
 }
