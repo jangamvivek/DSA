@@ -18,7 +18,6 @@ using namespace std;
 //     arr[mini] = arr[i];
 //     arr[i] = temp;
 //   }
-
 //   return 0;
 // }
 
@@ -66,18 +65,51 @@ using namespace std;
 // }
 
 // INSERTION SORT 
-void insertion_sort(int arr[], int n){
-  for (int i = 0; i < n-1; i++){
-    int j = i;
-    while (j > 0 && arr[j-1] > arr[j]){
-      int temp = arr[j-1];
-      arr[j-1] = arr[j];
-      arr[j] = temp;
-      j--;
-      cout << "Runs ";
-    }
-  }
+// void insertion_sort(int arr[], int n){
+//   for (int i = 0; i < n-1; i++){
+//     int j = i;
+//     while (j > 0 && arr[j-1] > arr[j]){
+//       int temp = arr[j-1];
+//       arr[j-1] = arr[j];
+//       arr[j] = temp;
+//       j--;
+//       cout << "Runs ";
+//     }
+//   }
   
+// }
+
+// int main(){
+//   int n;
+//   cin >> n;
+//   int arr[n];
+//   for(int i = 0; i < n; i++) cin >> arr[i];
+//   insertion_sort(arr, n);
+//   for(int i=0; i < n; i++){
+//     cout << arr[i] << " ";
+//   }
+//   return 0;
+// }
+
+
+// RECURSIVE BUBBLE SORT 
+void recursiveBubbleSort(int arr[], int n) {
+    // Base case
+    if (n == 1)
+        return;
+
+    // One pass of bubble sort
+    for (int i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            // Swap
+            int temp = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = temp;
+        }
+    }
+
+    // Recursive call for remaining elements
+    recursiveBubbleSort(arr, n - 1);
 }
 
 int main(){
@@ -85,7 +117,7 @@ int main(){
   cin >> n;
   int arr[n];
   for(int i = 0; i < n; i++) cin >> arr[i];
-  insertion_sort(arr, n);
+  recursiveBubbleSort(arr, n);
   for(int i=0; i < n; i++){
     cout << arr[i] << " ";
   }
