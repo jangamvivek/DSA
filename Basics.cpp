@@ -141,29 +141,72 @@ using namespace std;
 // }
 
 // FOR UPPER BOUND 
-int lowerBound(vector<int> &arr, int target){
-    int low = 0,  high = arr.size() - 1;
-    int res = arr.size();
+// int lowerBound(vector<int> &arr, int target){
+//     int low = 0,  high = arr.size() - 1;
+//     int res = arr.size();
 
-    while (low <= high)
-    {
-      int mid = (low + high) / 2;
-        if(arr[mid] > target){
-          res = mid;
-          high = mid - 1;
-        }
-        else{
-          low = mid + 1;
-        }
+//     while (low <= high)
+//     {
+//       int mid = (low + high) / 2;
+//         if(arr[mid] > target){
+//           res = mid;
+//           high = mid - 1;
+//         }
+//         else{
+//           low = mid + 1;
+//         }
+//     }
+//     return res;
+// }
+
+
+// int main() {
+//     vector<int> arr = {2, 3, 7, 10, 11, 11, 25};
+//     int target = 25;
+
+//     cout << lowerBound(arr, target);
+//     return 0;
+// }
+
+
+// class BankAccount {
+// private:
+//     double balance;  // private variable
+
+// public:
+//     BankAccount(double b) { balance = b; }
+
+//     void deposit(double amount) { balance += amount; }
+
+//     double getBalance() { return balance; }
+// };
+
+// int main() {
+//     BankAccount acct(1000);
+//     acct.deposit(500);
+//     cout << acct.getBalance();  // 1500
+//     return 0;
+// }
+
+
+class BankAccount {
+private:
+    double balance;  // private, cannot be accessed directly
+
+public:
+    void setBalance(double b) {
+        if (b >= 0)
+            balance = b;
     }
-    return res;
-}
 
+    double getBalance() {
+        return balance;
+    }
+};
 
 int main() {
-    vector<int> arr = {2, 3, 7, 10, 11, 11, 25};
-    int target = 25;
-
-    cout << lowerBound(arr, target);
+    BankAccount account;
+    account.setBalance(5000);
+    cout << "Balance: " << account.getBalance() << endl;
     return 0;
 }

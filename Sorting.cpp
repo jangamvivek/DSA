@@ -8,14 +8,14 @@ using namespace std;
 // selection sort 
 // int selection_sort(int arr[], int n){
 //   for(int i=0; i <= n-2; i++){
-//     int mini = i;
+//     int min = i;
 //     for(int j = i + 1; j < n; j++){
-//        if(arr[j] < arr[mini]){
-//         mini = j;
+//        if(arr[j] < arr[min]){
+//         min = j;
 //        }
 //     }
-//     int temp = arr[mini];
-//     arr[mini] = arr[i];
+//     int temp = arr[min];
+//     arr[min] = arr[i];
 //     arr[i] = temp;
 //   }
 //   return 0;
@@ -25,7 +25,8 @@ using namespace std;
 //   int n;
 //   cin >> n;
 //   int arr[n];
-//   for(int i = 0; i < n; i++) cin >> arr[i];
+//   for(int i = 0; i < n; i++) 
+//   cin >> arr[i];
 //   selection_sort(arr, n);
 //   for(int i=0; i < n; i++){
 //     cout << arr[i] << " ";
@@ -35,34 +36,34 @@ using namespace std;
 
 
 // BUBBLE SORT 
-// void bubble_sort(int arr[], int n){
-//   for(int i = n - 1; i >=0; i--){
-//     int didSwap = 0;
-//     for(int j = 0; j <= i - 1; j++){
-//        if(arr[j] > arr[j + 1]){
-//          int temp = arr[j + 1];
-//          arr[j+1] = arr[j];
-//          arr[j] = temp;
-//          didSwap = 1;
-//        }
-//     }
-//     if (didSwap == 0){
-//       break;
-//     }
-//   }
-// }
+void bubble_sort(int arr[], int n){
+  for(int i = n - 1; i >=0; i--){
+    int didSwap = 0;
+    for(int j = 0; j <= i - 1; j++){
+       if(arr[j] > arr[j + 1]){
+         int temp = arr[j + 1];
+         arr[j+1] = arr[j];
+         arr[j] = temp;
+         didSwap = 1;
+       }
+    }
+    if (didSwap == 0){
+      break;
+    }
+  }
+}
 
-// int main(){
-//   int n;
-//   cin >> n;
-//   int arr[n];
-//   for(int i = 0; i < n; i++) cin >> arr[i];
-//   bubble_sort(arr, n);
-//   for(int i=0; i < n; i++){
-//     cout << arr[i] << " ";
-//   }
-//   return 0;
-// }
+int main(){
+  int n;
+  cin >> n;
+  int arr[n];
+  for(int i = 0; i < n; i++) cin >> arr[i];
+  bubble_sort(arr, n);
+  for(int i=0; i < n; i++){
+    cout << arr[i] << " ";
+  }
+  return 0;
+}
 
 // INSERTION SORT 
 // void insertion_sort(int arr[], int n){
@@ -128,33 +129,33 @@ using namespace std;
 // }
 
 // RECURSIVE INSERTION SORT 
-void recursiveInsertionSort(int arr[], int n) {
-    // Base case
-    if (n == 1) return;
+// void recursiveInsertionSort(int arr[], int n) {
+//     // Base case
+//     if (n == 1) return;
 
-    recursiveInsertionSort(arr, n - 1);
+//     recursiveInsertionSort(arr, n - 1);
     
-    // insert last element at its current position 
-    int last = arr[n-1];
-    int j = n-2;
+//     // insert last element at its current position 
+//     int last = arr[n-1];
+//     int j = n-2;
 
-    // shift elements greater than last to one position ahead 
-    while (j > 0 && arr[j] > last){
-      arr[j+1] = arr[j];
-      j--;
-    }
+//     // shift elements greater than last to one position ahead 
+//     while (j > 0 && arr[j] > last){
+//       arr[j+1] = arr[j];
+//       j--;
+//     }
 
-    arr[j+1] = last;
-}
+//     arr[j+1] = last;
+// }
 
-int main(){
-  int n;
-  cin >> n;
-  int arr[n];
-  for(int i = 0; i < n; i++) cin >> arr[i];
-  recursiveInsertionSort(arr, n);
-  for(int i=0; i < n; i++){
-    cout << arr[i] << " ";
-  }
-  return 0;
-}
+// int main(){
+//   int n;
+//   cin >> n;
+//   int arr[n];
+//   for(int i = 0; i < n; i++) cin >> arr[i];
+//   recursiveInsertionSort(arr, n);
+//   for(int i=0; i < n; i++){
+//     cout << arr[i] << " ";
+//   }
+//   return 0;
+// }
