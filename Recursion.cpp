@@ -48,19 +48,47 @@ using namespace std;
 
 
 //sum of first N numbers using recursion
-void f(int i, int sum){
-  if (i < 1){
-    cout << sum << endl;
-    return;
-  }
-  f(i-1, sum + i);
-}
-int main(){
-  int n;
-  cin >> n;
-  f(n, 0);
-  return 0;
-}
+// paramterised
+// void f(int i, int sum){
+//   if (i < 1){
+//     cout << sum << endl;
+//     return;
+//   }
+//   f(i-1, sum + i);
+// }
+// int main(){
+//   int n;
+//   cin >> n;
+//   f(n, 0);
+//   return 0;
+// }
+
+// functional 
+// int f(int n){
+//   if (n == 0) return 0;
+//   return n + f(n-1);
+// }
+// int main(){
+//   int n;
+//   cin >> n;
+//   cout << f(n) << endl;
+//   return 0;
+// }
+
+
+// factorial of first N number using functional
+
+// int fact(int n){
+//   if (n == 0) return 1;
+//   return n * fact(n-1);
+// }
+// int main(){
+//   int n;
+//   cin >> n;
+//   cout << fact(n) << endl;
+//   return 0;
+// }
+
 
 // nth fibonacci number 
 // int nthFibonacci(int n){
@@ -118,23 +146,34 @@ int main(){
 // }
 
 // palindrome string check 
-// int isPalindrome(string s, int start, int end){
-//     if (start >= end)
-//         return true;
+int isPalindrome(string s, int start, int end){
+    if (start >= end)
+        return true;
     
-//     if (s[start] != s[end])
-//         return false;
+    if (s[start] != s[end])
+        return false;
 
-//     return isPalindrome(s, start + 1, end - 1);
+    return isPalindrome(s, start + 1, end - 1);
+}
+
+int main(){
+    string str = "viv";
+    bool result = isPalindrome(str, 0, str.length() - 1);
+    if(result)
+        cout << "true" << endl;
+    else
+        cout << "false" << endl;
+    return 0;
+}
+
+// bool f(int i, string &s){
+//     if(i >= s.size() / 2) return true;
+//     if(s[i] != s[s.size()-i-1]) return false;
+//     return f(i+1, s);
 // }
-
 // int main(){
-//     string str = "viv";
-//     bool result = isPalindrome(str, 0, str.length() - 1);
-//     if(result)
-//         cout << "true" << endl;
-//     else
-//         cout << "false" << endl;
+//     string s = "madam";
+//     cout << f(0, s);
 //     return 0;
 // }
 
