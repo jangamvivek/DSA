@@ -106,13 +106,24 @@ using namespace std;
 // }
 
 // int main(){
-//     int n = 5;
+//     int n = 6;
 //     int result = nthFibonacci(n);
 
 //     cout << result << endl;
 
 //     return 0;
 // }
+
+// another way for fibonacci series number
+int f(int n){
+    if(n<=1) return n;
+    int last = f(n-1);
+    int slast = f(n-2);
+    return last + slast;
+}
+int main(){
+    cout << f(4) << endl;
+}
 
 // sum of first n natural numbers 
 // int sumOfNaturalNumbers(int n){
@@ -146,25 +157,25 @@ using namespace std;
 // }
 
 // palindrome string check 
-int isPalindrome(string s, int start, int end){
-    if (start >= end)
-        return true;
+// int isPalindrome(string s, int start, int end){
+//     if (start >= end)
+//         return true;
     
-    if (s[start] != s[end])
-        return false;
+//     if (s[start] != s[end])
+//         return false;
 
-    return isPalindrome(s, start + 1, end - 1);
-}
+//     return isPalindrome(s, start + 1, end - 1);
+// }
 
-int main(){
-    string str = "viv";
-    bool result = isPalindrome(str, 0, str.length() - 1);
-    if(result)
-        cout << "true" << endl;
-    else
-        cout << "false" << endl;
-    return 0;
-}
+// int main(){
+//     string str = "viv";
+//     bool result = isPalindrome(str, 0, str.length() - 1);
+//     if(result)
+//         cout << "true" << endl;
+//     else
+//         cout << "false" << endl;
+//     return 0;
+// }
 
 // bool f(int i, string &s){
 //     if(i >= s.size() / 2) return true;

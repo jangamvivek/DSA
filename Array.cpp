@@ -10,7 +10,7 @@ using namespace std;
 //   for (int i = 1; i < n; i++)
 //   {
 //     if(arr[i] > largest)
-//   largest = arr[i];
+//     largest = arr[i];
 //   }
 
 //   return largest;
@@ -563,30 +563,30 @@ using namespace std;
 // }
 
 // OPTIMAL SOLUTION  Time complexity O(n)
-void sort012(vector<int> &arr) {
-    int n = arr.size();
-    int lo = 0;
-    int hi = n - 1;
-    int mid = 0;
+// void sort012(vector<int> &arr) {
+//     int n = arr.size();
+//     int lo = 0;
+//     int hi = n - 1;
+//     int mid = 0;
 
-    // Iterate till all the elements
-    // are sorted
-    while (mid <= hi) {
-        if (arr[mid] == 0)
-            swap(arr[lo++], arr[mid++]);
-        else if (arr[mid] == 1)
-            mid++;
-        else
-            swap(arr[mid], arr[hi--]);
-    }
-}
+//     // Iterate till all the elements
+//     // are sorted
+//     while (mid <= hi) {
+//         if (arr[mid] == 0)
+//             swap(arr[lo++], arr[mid++]);
+//         else if (arr[mid] == 1)
+//             mid++;
+//         else
+//             swap(arr[mid], arr[hi--]);
+//     }
+// }
 
-int main() {
-    vector<int> arr = { 0, 1, 2, 0, 1, 2 };
-    sort012(arr);
+// int main() {
+//     vector<int> arr = { 0, 1, 2, 0, 1, 2 };
+//     sort012(arr);
 
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << " ";
-    cout << endl;
-    return 0;
-}
+//     for (int i = 0; i < arr.size(); i++)
+//         cout << arr[i] << " ";
+//     cout << endl;
+//     return 0;
+// }
