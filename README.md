@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/jangamvivek/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jangamvivek/DSA/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
+| [0485-max-consecutive-ones](https://github.com/jangamvivek/DSA/tree/master/0485-max-consecutive-ones) |
 ## Two Pointers
 |  |
 | ------- |
