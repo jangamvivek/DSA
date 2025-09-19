@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/jangamvivek/DSA/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/jangamvivek/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/jangamvivek/DSA/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/jangamvivek/DSA/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/jangamvivek/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/jangamvivek/DSA/tree/master/0054-spiral-matrix) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jangamvivek/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/jangamvivek/DSA/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/jangamvivek/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/jangamvivek/DSA/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/jangamvivek/DSA/tree/master/0189-rotate-array) |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jangamvivek/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/jangamvivek/DSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/jangamvivek/DSA/tree/master/0075-sort-colors) |
 | [0229-majority-element-ii](https://github.com/jangamvivek/DSA/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
