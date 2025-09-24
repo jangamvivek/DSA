@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/jangamvivek/DSA/tree/master/0493-reverse-pairs) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/jangamvivek/DSA/tree/master/0674-longest-continuous-increasing-subsequence) |
+| [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0493-reverse-pairs](https://github.com/jangamvivek/DSA/tree/master/0493-reverse-pairs) |
+| [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
 ## Sorting
 |  |
 | ------- |
