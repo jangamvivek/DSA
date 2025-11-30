@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/jangamvivek/DSA/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
+| [0941-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0941-valid-mountain-array) |
 | [0978-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0978-valid-mountain-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
