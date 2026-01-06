@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Counting Sort
 |  |
 | ------- |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/jangamvivek/DSA/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Stack
 |  |
 | ------- |
@@ -226,4 +228,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/jangamvivek/DSA/tree/master/0509-fibonacci-number) |
+## Enumeration
+|  |
+| ------- |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 <!---LeetCode Topics End-->
