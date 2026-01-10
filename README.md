@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/jangamvivek/DSA/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jangamvivek/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/jangamvivek/DSA/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jangamvivek/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/jangamvivek/DSA/tree/master/0152-maximum-product-subarray) |
+| [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/jangamvivek/DSA/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/jangamvivek/DSA/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/jangamvivek/DSA/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Stack
