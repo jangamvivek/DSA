@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/jangamvivek/DSA/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
+| [0860-lemonade-change](https://github.com/jangamvivek/DSA/tree/master/0860-lemonade-change) |
 | [0941-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [0978-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0978-valid-mountain-array) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0455-assign-cookies](https://github.com/jangamvivek/DSA/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
+| [0860-lemonade-change](https://github.com/jangamvivek/DSA/tree/master/0860-lemonade-change) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Counting Sort
 |  |
