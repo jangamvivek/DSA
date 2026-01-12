@@ -14,11 +14,11 @@ public:
             } 
             else {
                 if(ten && five){
-                    ten = ten - 1;
-                    five = five - 1;
+                    ten -= 1;
+                    five -= 1;
                 } 
                 else if(five >= 3){
-                    five = five - 3;
+                    five -= 3;
                 } 
                 else return false;
             }
