@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/jangamvivek/DSA/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/jangamvivek/DSA/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/jangamvivek/DSA/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/jangamvivek/DSA/tree/master/0189-rotate-array) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/jangamvivek/DSA/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jangamvivek/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/jangamvivek/DSA/tree/master/0012-integer-to-roman) |
 | [0073-set-matrix-zeroes](https://github.com/jangamvivek/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/jangamvivek/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/jangamvivek/DSA/tree/master/0169-majority-element) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jangamvivek/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/jangamvivek/DSA/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/jangamvivek/DSA/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/jangamvivek/DSA/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/jangamvivek/DSA/tree/master/0179-largest-number) |
