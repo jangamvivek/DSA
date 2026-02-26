@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0941-valid-mountain-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [0978-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0978-valid-mountain-array) |
+| [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/jangamvivek/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Binary Search
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/jangamvivek/DSA/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
+| [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Bit Manipulation
 |  |
 | ------- |
