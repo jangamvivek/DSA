@@ -5,11 +5,9 @@ public:
         int maxi = INT_MIN;
         int n = nums.size();
         for(int i=0; i<n; i++){
-            sum = sum + nums[i];
-
-            if(sum > maxi){
-                maxi = sum;
-            }
+            sum += nums[i];
+            maxi = max(maxi, sum);
+            
             if(sum < 0){
                 sum = 0;
             }
