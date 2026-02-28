@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0978-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0978-valid-mountain-array) |
 | [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Two Pointers
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
+| [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Binary Search
@@ -291,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jangamvivek/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 ## Design
 |  |
 | ------- |
