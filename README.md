@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
+| [0643-maximum-average-subarray-i](https://github.com/jangamvivek/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/jangamvivek/DSA/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
 | [0860-lemonade-change](https://github.com/jangamvivek/DSA/tree/master/0860-lemonade-change) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jangamvivek/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0643-maximum-average-subarray-i](https://github.com/jangamvivek/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 ## Design
 |  |
