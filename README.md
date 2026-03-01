@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/jangamvivek/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/jangamvivek/DSA/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
 | [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Stack
@@ -304,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/jangamvivek/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/jangamvivek/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/jangamvivek/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 ## Design
