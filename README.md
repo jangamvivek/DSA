@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/jangamvivek/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/jangamvivek/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/jangamvivek/DSA/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/jangamvivek/DSA/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jangamvivek/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jangamvivek/DSA/tree/master/0380-insert-delete-getrandom-o1) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/jangamvivek/DSA/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/jangamvivek/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/jangamvivek/DSA/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/jangamvivek/DSA/tree/master/0290-word-pattern) |
 | [0316-remove-duplicate-letters](https://github.com/jangamvivek/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/jangamvivek/DSA/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/jangamvivek/DSA/tree/master/0383-ransom-note) |
