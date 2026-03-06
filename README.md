@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/jangamvivek/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/jangamvivek/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/jangamvivek/DSA/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/jangamvivek/DSA/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/jangamvivek/DSA/tree/master/0274-h-index) |
 | [0349-intersection-of-two-arrays](https://github.com/jangamvivek/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/jangamvivek/DSA/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0389-find-the-difference](https://github.com/jangamvivek/DSA/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/jangamvivek/DSA/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/jangamvivek/DSA/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/jangamvivek/DSA/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/jangamvivek/DSA/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/jangamvivek/DSA/tree/master/0389-find-the-difference) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/jangamvivek/DSA/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 ## Prefix Sum
 |  |
@@ -291,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/jangamvivek/DSA/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/jangamvivek/DSA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/jangamvivek/DSA/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/jangamvivek/DSA/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
