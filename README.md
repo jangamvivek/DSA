@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/jangamvivek/DSA/tree/master/0268-missing-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jangamvivek/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/jangamvivek/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/jangamvivek/DSA/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/jangamvivek/DSA/tree/master/0509-fibonacci-number) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/jangamvivek/DSA/tree/master/0054-spiral-matrix) |
 | [0412-fizz-buzz](https://github.com/jangamvivek/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/jangamvivek/DSA/tree/master/0415-add-strings) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union Find
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/jangamvivek/DSA/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/jangamvivek/DSA/tree/master/0409-longest-palindrome) |
 | [0412-fizz-buzz](https://github.com/jangamvivek/DSA/tree/master/0412-fizz-buzz) |
+| [0415-add-strings](https://github.com/jangamvivek/DSA/tree/master/0415-add-strings) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
