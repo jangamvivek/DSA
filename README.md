@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/jangamvivek/DSA/tree/master/0561-array-partition) |
+| [0575-distribute-candies](https://github.com/jangamvivek/DSA/tree/master/0575-distribute-candies) |
 | [0643-maximum-average-subarray-i](https://github.com/jangamvivek/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/jangamvivek/DSA/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0792-binary-search](https://github.com/jangamvivek/DSA/tree/master/0792-binary-search) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
+| [0575-distribute-candies](https://github.com/jangamvivek/DSA/tree/master/0575-distribute-candies) |
 | [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
