@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/jangamvivek/DSA/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/jangamvivek/DSA/tree/master/0441-arranging-coins) |
 | [0509-fibonacci-number](https://github.com/jangamvivek/DSA/tree/master/0509-fibonacci-number) |
+| [1513-number-of-substrings-with-only-1s](https://github.com/jangamvivek/DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/jangamvivek/DSA/tree/master/0415-add-strings) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jangamvivek/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/jangamvivek/DSA/tree/master/0567-permutation-in-string) |
+| [1513-number-of-substrings-with-only-1s](https://github.com/jangamvivek/DSA/tree/master/1513-number-of-substrings-with-only-1s) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/jangamvivek/DSA/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/jangamvivek/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Stack
