@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/jangamvivek/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [0978-valid-mountain-array](https://github.com/jangamvivek/DSA/tree/master/0978-valid-mountain-array) |
 | [1331-rank-transform-of-an-array](https://github.com/jangamvivek/DSA/tree/master/1331-rank-transform-of-an-array) |
+| [1480-running-sum-of-1d-array](https://github.com/jangamvivek/DSA/tree/master/1480-running-sum-of-1d-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/jangamvivek/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2653-sliding-subarray-beauty](https://github.com/jangamvivek/DSA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/jangamvivek/DSA/tree/master/3227-find-missing-and-repeated-values) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/jangamvivek/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/jangamvivek/DSA/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/jangamvivek/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [1480-running-sum-of-1d-array](https://github.com/jangamvivek/DSA/tree/master/1480-running-sum-of-1d-array) |
 ## Dynamic Programming
 |  |
 | ------- |
